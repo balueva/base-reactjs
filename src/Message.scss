@@ -1,0 +1,11 @@
+$bg-color: lightblue;
+$text-color: rgb(0, 140, 255);
+
+.Message {
+    width: 100%;
+    background-color: $bg-color;
+
+    & h1 {
+        color: $text-color;
+    }
+}
